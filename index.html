@@ -4,11 +4,209 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+      <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="./images/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./images/favicons/favicon-16x16.png">
+  <link rel="manifest" href="./images/favicons/site.webmanifest">
+
+  <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body>
-    
+     
+  <nav class="navbar navbar-expand-md navbar-dark bg-darky " style="z-index:1">
+    <a class="navbar-brand" href="#">
+      <img src="./images/favicon-32x32.png"  width="32" height="32" class="d-inline-block align-top">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Content" aria-controls="Content"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse " id="Content">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#competences">Compétences</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#loisirs">Loisirs</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!--Fin du navbar-->
+    <div class="container-fluid">
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" git data-interval="5000">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner ">
+        <div class="carousel-item active">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>iPhone 11 Pro</h3>
+            <p>Pro cameras. Pro display. Pro performance.</p>
+            <p class="price">From 280.29dh/mo. or 6,790.00dh with trade‑in.</p>
+
+          </div>
+          <img src="./images/iphone11 copy.png" class="d-block w-100">
+        </div>
+        <div class="carousel-item ">
+          <img src="./images/macbooks.PNG" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block ">
+            <h3 class="black">MacBook Pro</h3>
+            <p class="black">With great power comes great capability.</p>
+            <p class="price">Starting at 1,299.00dh for 13.3-inch</p>
+          </div>
+        </div>
+        <div class="carousel-item ">
+          <img src="./images/macbookair.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h3 class="black">MacBook Air</h3>
+            <p class="price">Now from 9,999.00dh</p>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid ">
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+
+<!--fin carousel -->
+    <div id="products" class="row d-flex justify-content-center cards">
+      <div class="col-10 ">
+        <div class="row row-cols-1 row-cols-lg-3">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row no-gutters">
+              <div class="col-lg-12 col-md-4">
+                <img src="./images/imac.jpg" class="card-img" alt="...">
+              </div>
+              <div class="col-lg-12 col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Apple 27″ iMac with Retina 5K Display i7 4GHz<br /><b>30,000.00dh</b></h5>
+                  <p class="card-text">PRODUCT HIGHLIGHTS<ul>
+                      <li>4,2 GHz Intel Core i7 Quad-Core</li>
+                      <li>32GB of DDR4 RAM | 1TB SSD</li>
+                      <li>27″ 5120 x 2880 IPS Retina 5K Display </li>
+                      <li>AMD Radeon Pro 570 Graphics Card (4GB)</li>
+                      <li>UHS-II SDXC Card Reader</li>
+                      <li>Thunderbolt 3 | USB 3.0 Type-A </li>
+                      <li>802.11ac Wi-Fi | Bluetooth 4.2</li>
+                      <li>1 x Gigabit Ethernet Port</li>
+                      <li>Magic Keyboard & Magic Mouse 2 Included</li>
+                    </ul>
+                    <button type="button" class="btn btn-outline-primary">Add to cart</button>
+                  </p>
+                  <p class="card-text"><small class="text-muted">Last updated 1 week ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row no-gutters">
+              <div class="col-lg-12 col-md-4">
+                <img src="./images/thinkpad.jpg" class="card-img" alt="...">
+              </div>
+              <div class="col-lg-12 col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">LENOVO THINKPAD X1 YOGA I7 14″<br /><b>8,000.00dh</b></h5>
+                  <p class="card-text">PRODUCT HIGHLIGHTS<ul>
+                      <li>Intel® Core™ i7-7500U</li>
+                      <li>RAM 16 GB</li>
+                      <li>256 GB SSD</li>
+                      <li>M.2 PCIe-NVMe OPAL2</li>
+                      <li>Intel HD Graphics 620</li>
+                      <li>Ecran 143 – FHD</li>
+                      <li>Dolby® Advanced Audio v2</li>
+                      <li>Clavier Rétro-éclairer</li>
+                      <li>Lecteur d’empreinte digitale</li>
+                      <li>Lecteur de carte MicroSD</li>
+                      <li>Fibre de Carbone Hybrid Noir</li>
+                    </ul>
+                    <button type="button" class="btn btn-outline-primary">Add to cart</button>
+                  </p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 days ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row no-gutters">
+              <div class="col-lg-12 col-md-4">
+                <img src="./images/surface.jpg" class="card-img" alt="...">
+              </div>
+              <div class="col-lg-12 col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Microsoft Surface Pro 12.3″ Multi-Touch Tablet<br /><b>6,500.00dh</b></h5>
+                  <p class="card-text">PRODUCT HIGHLIGHTS<ul>
+                      <li>2.6 GHz Intel Core i5-7300U </li>
+                      <li>8GB of RAM | 128 SSD</li>
+                      <li>12.3″ PixelSense 10-Point Touch Display</li>
+                      <li>2736 x 1824 Screen Resolution (267 ppi)</li>
+                      <li>Integrated Intel HD Graphics 620</li>
+                      <li>802.11ac Wi-Fi | Bluetooth 4.0</li>
+                      <li>5MP Front Camera | 8MP Rear Camera</li>
+                      <li>USB 3.0 Type-A | Mini DisplayPort</li>
+                      <li>Dolby® Advanced Audio v2</li>
+                    </ul>
+                    <button type="button" class="btn btn-outline-primary">Add to cart</button>
+                  </p>
+
+                  <p class="card-text"><small class="text-muted">Last updated 2 days ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--fin-->
+
+<section class="our-webcoderskull padding-lg">
+    <div class="container">
+      <div class="row heading heading-icon text-center">
+          <h2>Our Team</h2>
+          
+      </div>
+      <div class="row">
+          <div class="col-4">
+            <div class="cnt-block equal-hight" style="height: 330px;">
+                <figure><img src="data:image/jpeg;base64,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" class="img-responsive" alt=""></figure>
+                <h3>walid mouatamid</h3>
+                <p>Web Developer and Data Scientist</p>
+              </div>
+          </div>
+          <div class="col-8">
+               <div class="cnt-block equal-hight" style="height: 330px;">
+                <p>Web Developer and Data Scientist</p>
+              </div>
+        </div>
+      </div>
+    </div>
+     </section>
+
+
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
